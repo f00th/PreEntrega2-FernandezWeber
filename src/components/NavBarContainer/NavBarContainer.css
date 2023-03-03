@@ -2,4 +2,5 @@
     background-color: rgb(207, 119, 119);
     height: 10rem;
     align-items: center;
+    flex-direction: row;
 }
