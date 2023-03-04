@@ -6,8 +6,8 @@ const NavBarContainer = () => {
     return (
         <div className="NavBarContainer">
             <Link to="/">Home</Link>
-            <Link to="/items">Items</Link>
-            <Link to="/items/:id">Item detail</Link>
+            <Link to="/category/:id">Items</Link>
+            <Link to="/item/:id">Item detail</Link>
             <hr></hr>
             <CartWidget />
         </div>

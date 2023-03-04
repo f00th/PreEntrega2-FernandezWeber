@@ -10,7 +10,7 @@ const CartWidget = () => {
 
     return (
         <div>
-            <p>CartWidget</p><img className="cart_icon"src={CartIcon} alt="Cart icon" />
+            <p className="cart_widget">CartWidget</p><img className="cart_icon"src={CartIcon} alt="Cart icon" />
             {/* <button onClick={onClickHandler}>Contar</button>{counter} */}
         </div>
 
