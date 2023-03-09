@@ -9,8 +9,8 @@ const CartWidget = () => {
     } */}
 
     return (
-        <div>
-            <p className="cart_widget">CartWidget</p><img className="cart_icon"src={CartIcon} alt="Cart icon" />
+        <div className="cart_widget">
+            <p >CartWidget</p><img className="cart_icon"src={CartIcon} alt="Cart icon" />
             {/* <button onClick={onClickHandler}>Contar</button>{counter} */}
         </div>
 

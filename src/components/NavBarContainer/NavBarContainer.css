@@ -1,7 +1,7 @@
 .NavBarContainer {
     display: flex;
     background-color: rgb(207, 119, 119);
-    height: 10rem;
+    height: 35vh;
     align-items: center;
-    flex-direction: row;
+    flex-direction: column;
 }
